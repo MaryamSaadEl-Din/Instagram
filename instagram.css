@@ -1,0 +1,114 @@
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+}
+
+#login{
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    height:  410px;
+    width: 350px;
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+
+#img{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input[id="email"]{
+    width: 265px;
+    height: 35px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-bottom: 5;
+}
+
+input[id="pass"]{
+    width: 265px;
+    height: 35px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-bottom: 10;
+}
+
+input[id="button"]{
+    width: 265px;
+    height: 35px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: rgb(76, 181, 249);
+    color: white;
+    font-size: medium;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+
+p{
+    color: rgb(160, 160, 160);
+    font-family: Tahoma;
+    text-align: center;
+}
+
+#facebook{
+    margin-left: 100px;
+}
+
+#forgot{
+    margin-left: 120px;
+}
+
+#signup{
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    height:  60px;
+    width: 350px;
+    position: absolute;
+    right: 20%;
+    top: 70%;
+}
+
+#text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+#app{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 30%;
+    top: 83%;
+}
+
+#get{
+    position: absolute;
+    right: 24%;
+    top: 89%;
+}
+
+a{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
